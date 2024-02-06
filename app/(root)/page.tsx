@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Category from "@/lib/database/models/category.model";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -39,7 +40,7 @@ export default async function Home() {
         </h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
-          Search Category Filter
+          <Category/>
         </div>
       </section>
     </>
