@@ -13,7 +13,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { FileUploader } from "./FileUploader"
 import { useState } from "react"
 import Image from "next/image"
-import  DatePicker  from "react-datepicker";
+import DatePicker from "react-datepicker";
 import { useUploadThing } from '@/lib/uploadthing'
 
 import "react-datepicker/dist/react-datepicker.css";
